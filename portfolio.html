@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,12 +26,13 @@
     <link rel="stylesheet" href="./scc/style.css" />
   </head>
   <body class="body">
-    <!-- Heder -->
-    <header class="header">
-      <a class="logo link" href=""
+    <!-- Heder section-->
+    <header class="header chapter">
+      <div class="header-container container">
+        <a class="logo link" href=""
         >Web<span class="logo-header">Studio</span></a
       >
-      <nav>
+      <nav class="header-nav">
         <ul class="nav-list list">
           <li class="nav-item">
             <a href="./index.html" class="nav-link link">Студія</a>
@@ -44,23 +45,33 @@
           </li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com" class="header-mail link"
+      <div class="header-group">
+<a href="mailto:info@devstudio.com" class="header-mail link"
         >info@devstudio.com</a
       >
       <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
-    </header>
+      </header>
+    </div>
+      
+      </div>
+   
     <main>
-      <section class="btn">
-        <ul class="list">
+      <!-- Hero section -->
+      <section class="button-container">
+
+        <div class="container">
+          <ul class="button-btn list">
           <li><button type="button" class="btn-item">Усі</button></li>
           <li><button type="button" class="btn-list">Веб-сайти</button></li>
           <li><button type="button" class="btn-list">Додатки</button></li>
           <li><button type="button" class="btn-list">Дизайн</button></li>
           <li><button type="button" class="btn-list">Маркетинг</button></li>
         </ul>
-        <h1 class="visually-hidden">Проєкти компанії</h1>
-        <ul class="list">
-          <li>
+        <!-- Project company -->
+        <section class="design chapter">
+  <h1 class="visually-hidden">Проєкти компанії</h1>
+        <ul class="photo-project list">
+          <li class="project-content">
             <img
               src="./img/photoprogect/img.jpg"
               alt="Ноутбук"
@@ -70,7 +81,7 @@
             <h2 class="design-title">Технокряк</h2>
             <p class="design-text">Веб-сайт</p>
           </li>
-          <li>
+          <li class="project-content">
             <img
               src="./img/photoprogect/img1.jpg"
               alt="Баскетбол"
@@ -80,7 +91,7 @@
             <h2 class="design-title">Постер New Orlean vs Golden Star</h2>
             <p class="design-text">Дизайн</p>
           </li>
-          <li>
+          <li class="project-content">
             <img
               src="./img/photoprogect/img2.jpg"
               alt="Логотип"
@@ -90,7 +101,7 @@
             <h2 class="design-title">Ресторан Seafood</h2>
             <p class="design-text">Додаток</p>
           </li>
-          <li>
+          <li class="project-content">
             <img
               src="./img/photoprogect/img3.jpg"
               alt="Навушники"
@@ -100,7 +111,7 @@
             <h2 class="design-title">Проєкт Prime</h2>
             <p class="design-text">Маркетинг</p>
           </li>
-          <li>
+          <li class="project-content">
             <img
               src="./img/photoprogect/img4.jpg"
               alt="Коробки"
@@ -110,7 +121,7 @@
             <h2 class="design-title" lang="en">Проєкт Boxes</h2>
             <p class="design-text">Додаток</p>
           </li>
-          <li>
+          <li class="project-content">
             <img
               src="./img/photoprogect/img5.jpg"
               alt="Комп"
@@ -120,7 +131,7 @@
             <h2 class="design-title" lang="en">Inspiration has no Borders</h2>
             <p class="design-text">Веб-сайт</p>
           </li>
-          <li>
+          <li class="project-content">
             <img
               src="./img/photoprogect/img6.jpg"
               alt="Книга"
@@ -130,7 +141,7 @@
             <h2 class="design-title" lang="en">Видання Limited Edition</h2>
             <p class="design-text">Дизайн</p>
           </li>
-          <li>
+          <li class="project-content">
             <img
               src="./img/photoprogect/img7.jpg"
               alt="Декор"
@@ -140,7 +151,7 @@
             <h2 class="design-title" lang="en">Проєкт LAB</h2>
             <p class="design-text">Маркетинг</p>
           </li>
-          <li>
+          <li class="project-content">
             <img
               src="./img/photoprogect/img8.jpg"
               alt="Ноутбук"
@@ -151,11 +162,19 @@
             <p class="design-text">Додаток</p>
           </li>
         </ul>
-      </section>
-    </main>
+
+       </section>
+        </main>
+
+
+        </div>
+       
+         
+
+
     <!-- Footer -->
     <footer class="footer">
-      <a class="logo-section link" href=""
+     <div class="container"> <a class="logo-element link" href=""
         >Web<span class="logo-footer">Studio</span></a
       >
 
@@ -181,7 +200,7 @@
             >
           </li>
         </ul>
-      </address>
+      </address></div>
     </footer>
   </body>
 </html>

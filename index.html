@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,11 +27,12 @@
   </head>
   <body class="body">
     <!-- header -->
-    <header class="header">
-      <a class="logo link" href=""
+    <header class="header chapter">
+     <div class="header-container container">
+       <a class="logo link" href=""
         >Web<span class="logo-header">Studio</span></a
       >
-      <nav>
+      <nav class="header-nav">
         <ul class="nav-list list">
           <li class="nav-item">
             <a href="" class="nav-link curent link">Студія</a>
@@ -44,24 +45,32 @@
           </li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com" class="header-mail link"
+      <div class="header-group">
+        <a href="mailto:info@devstudio.com" class="header-mail link"
         >info@devstudio.com</a
       >
       <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
     </header>
+      </div>
+      
+     </div>
+     <!-- Main section -->
     <main>
-      <!-- hero -->
-      <section class="hero">
-        <h1 class="hero-title">
+      <!-- Hero section-->
+      <section class="hero chapter">
+        <div class="about-container container">
+           <h1 class="hero-title">
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
         <button type="button" class="button-hero">Замовити послугу</button>
       </section>
-
-      <section class="section">
-        <h2 class="visually-hidden">Переваги нашої компанії</h2>
-        <ul class="list">
+        </div>
+       <!-- Benefits section -->
+      <section class="section chapt">
+       <div class="container">
+         <h2 class="visually-hidden">Переваги нашої компанії</h2>
+        <ul class="benefits-text list">
           <li>
             <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="section-text">
@@ -90,13 +99,15 @@
             </p>
           </li>
         </ul>
+       </div>
       </section>
+      <!-- Project section-->
+      <section class="project chapter">
+       <div class="container">
+         <h2 class="project-title">Чим ми займаємося</h2>
 
-      <section class="project">
-        <h2 class="project-title">Чим ми займаємося</h2>
-
-        <ul class="list">
-          <li>
+        <ul class="progect-desc list">
+          <li class="about-project">
             <img
               src="./img/about-img1-jpg.jpg"
               alt="Програмування"
@@ -104,7 +115,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="about-project">
             <img
               src="./img/about-img2-jpg.jpg"
               alt="Програмування"
@@ -112,7 +123,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="about-project">
             <img
               src="./img/about-img3-jpg.jpg"
               alt="Програмування"
@@ -121,21 +132,25 @@
             />
           </li>
         </ul>
+       </div>
       </section>
-      <section class="comand-link">
-        <h2>Наша команда</h2>
-        <ul class="list">
-          <li>
+      <!-- Team section -->
+      <section class="comand-link chapter">
+        <div class="container">
+          <h2 class="comand-title">Наша команда</h2>
+        <ul class="team-galery list">
+          <li class="about-comand">
             <img
               src="./img/workers/img.jpg"
               alt="співробітник"
               width="270"
               height="260"
             />
+            
             <h3 class="comand-item">Ігор Дем'яненко</h3>
             <p class="comand-text" lang="en">Product Designer</p>
           </li>
-          <li>
+          <li class="about-comand">
             <img
               src="./img/workers/img1.jpg"
               alt="співробітниця"
@@ -146,7 +161,7 @@
             <p class="comand-text" lang="en">Frontend Developer</p>
           </li>
 
-          <li>
+          <li class="about-comand">
             <img
               src="./img/workers/img2.jpg"
               alt="співробітник"
@@ -156,7 +171,7 @@
             <h3 class="comand-item">Микола Тарасов</h3>
             <p class="comand-text" lang="en">Marketing</p>
           </li>
-          <li>
+          <li class="about-comand">
             <img
               src="./img/workers/img3.jpg"
               alt="співробітник"
@@ -167,11 +182,13 @@
             <p class="comand-text" lang="en">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <a class="logo-section link" href=""
+      <div class="container">
+        <a class="logo-element link" href=""
         >Web<span class="logo-footer">Studio</span></a
       >
 
@@ -198,6 +215,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
