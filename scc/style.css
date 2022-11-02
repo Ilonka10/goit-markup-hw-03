@@ -369,10 +369,7 @@ p {
   padding: 6px 22px;
 }
 .btn-item {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding: 6px 22px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
