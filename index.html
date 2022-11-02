@@ -13,21 +13,13 @@
       rel="stylesheet"
     />
     <!-- Modern-normalize -->
-    <link rel="stylesheet" href="
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    ">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom styles -->
     <link rel="stylesheet" href="./scc/style.css" />
   </head>
   <body class="body">
     <!-- header -->
-    <header class="header chapter">
+    <header class="header-chapter">
      <div class="header-container container">
        <a class="logo link" href=""
         >Web<span class="logo-header">Studio</span></a
@@ -50,10 +42,9 @@
         >info@devstudio.com</a
       >
       <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
-    </header>
+    </div>
       </div>
-      
-     </div>
+      </header>
      <!-- Main section -->
     <main>
       <!-- Hero section-->
@@ -64,34 +55,34 @@
           вашого бізнесу
         </h1>
         <button type="button" class="button-hero">Замовити послугу</button>
-      </section>
         </div>
-       <!-- Benefits section -->
-      <section class="section chapt">
+      </section>
+        <!-- Benefits section -->
+      <section class="section-chapt">
        <div class="container">
          <h2 class="visually-hidden">Переваги нашої компанії</h2>
         <ul class="benefits-text list">
-          <li>
+          <li class="about-text">
             <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="section-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="about-text">
             <h3 class="section-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="section-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="about-text">
             <h3 class="section-title">ПЛАНУВАННЯ</h3>
             <p class="section-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="about-text">
             <h3 class="section-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="section-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -102,7 +93,7 @@
        </div>
       </section>
       <!-- Project section-->
-      <section class="project chapter">
+      <section class="project-chapter">
        <div class="container">
          <h2 class="project-title">Чим ми займаємося</h2>
 
@@ -135,7 +126,7 @@
        </div>
       </section>
       <!-- Team section -->
-      <section class="comand-link chapter">
+      <section class="comand-link ">
         <div class="container">
           <h2 class="comand-title">Наша команда</h2>
         <ul class="team-galery list">
@@ -146,9 +137,11 @@
               width="270"
               height="260"
             />
-            
-            <h3 class="comand-item">Ігор Дем'яненко</h3>
+            <div class="team-comand">
+              <h3 class="comand-item">Ігор Дем'яненко</h3>
             <p class="comand-text" lang="en">Product Designer</p>
+            </div>
+            
           </li>
           <li class="about-comand">
             <img
@@ -157,19 +150,23 @@
               width="270"
               height="260"
             />
+            <div class="team-comand">
             <h3 class="comand-item">Ольга Рєпіна</h3>
             <p class="comand-text" lang="en">Frontend Developer</p>
-          </li>
-
-          <li class="about-comand">
+            </div>
+            </li>
+         <li class="about-comand">
             <img
               src="./img/workers/img2.jpg"
               alt="співробітник"
               width="270"
               height="260"
             />
-            <h3 class="comand-item">Микола Тарасов</h3>
+            <div class="team-comand">
+              <h3 class="comand-item">Микола Тарасов</h3>
             <p class="comand-text" lang="en">Marketing</p>
+            </div>
+            
           </li>
           <li class="about-comand">
             <img
@@ -178,9 +175,11 @@
               width="270"
               height="260"
             />
-            <h3 class="comand-item">Михайло Єрмаков</h3>
+            <div class="team-comand">
+              <h3 class="comand-item">Михайло Єрмаков</h3>
             <p class="comand-text" lang="en">UI Designer</p>
-          </li>
+            </div>
+           </li>
         </ul>
         </div>
       </section>
@@ -191,8 +190,7 @@
         <a class="logo-element link" href=""
         >Web<span class="logo-footer">Studio</span></a
       >
-
-      <address class="address">
+<address class="address">
         <ul class="list">
           <li>
             <a
