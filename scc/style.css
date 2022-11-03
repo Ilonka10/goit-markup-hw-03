@@ -121,6 +121,8 @@ p {
 /*------Hero----- */
 .hero-chapter {
   background-color: var(--primary-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin-top: 0;
@@ -136,10 +138,6 @@ p {
 }
 .button-btn {
   margin-bottom: 34px;
-}
-.hero-chapter {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .button-hero {
   margin-bottom: 200px;
